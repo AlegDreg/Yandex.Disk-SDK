@@ -3,7 +3,7 @@ This is an unofficial project for Yandex.Disk management
 
 At the moment it has the functions:
 - Download files
-- Upload files by url
+- Upload files from url
 - Upload file from local storage
 - Delete file/directory
 - Create directory
