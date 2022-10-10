@@ -16,9 +16,7 @@ namespace YaDiskSdk
             _baseInfoModel = new BaseInfoModel() { token = Token, url = url };
         }
 
-        //https://oauth.yandex.ru/client/f6fe1ecabe9740519e8cd2638bbb38ed
         //https://yandex.ru/dev/disk/api/reference/content.html
-        //https://oauth.yandex.ru/authorize?response_type=token&client_id=f6fe1ecabe9740519e8cd2638bbb38ed
 
         public async Task<bool> DownloadFile(string filePath, string saveAsPath)
         {
