@@ -19,3 +19,14 @@ var sdk = new Sdk(token);
 ```c#
 bool success = await sdk.DownloadFile("images/image.png", "C:\\newimage.png");
 ```
+
+## Another way
+You can call all methods using the IAction<T> interface
+```c#
+string url = "https://cloud-api.yandex.net/v1/disk/resources";
+IAction<DownloadDataModel> action = new DownloadFile();
+  
+bool success = await action.DoAction(
+    new DownloadDataModel { filePath = "images/image.png", saveAsPath = "C:\\newimage.png" },  
+    new BaseInfoModel() { token = Token, url = url });
+```
