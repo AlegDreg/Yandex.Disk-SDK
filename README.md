@@ -16,6 +16,6 @@ var sdk = new Sdk(token);
 ```
 
 ## Now you can call any method in Sdk instance
-```#c
+```c#
 bool success = await sdk.DownloadFile("images/image.png", "C:\newimage.png");
 ```
