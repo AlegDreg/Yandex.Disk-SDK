@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using YaDiskSdk.Models;
 
 namespace YaDiskSdk.Actions

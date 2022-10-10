@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using YaDiskSdk.Models;
 
 namespace YaDiskSdk.Actions
@@ -7,7 +7,7 @@ namespace YaDiskSdk.Actions
     {
         public async Task<MainResult<Res>> Create(string url, string token, string foldername)
         {
-            return (MainResult<Res>)await base.Action<Res>(
+            return await base.Action<Res>(
                 token,
                 url + $"?path={foldername.ReplaceCharsToUri()}",
                 ReqTypes.PUT
