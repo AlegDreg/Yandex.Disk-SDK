@@ -1,0 +1,9 @@
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\bin\Debug\YaDiskSdk.dll
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\bin\Debug\YaDiskSdk.pdb
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\bin\Debug\Newtonsoft.Json.dll
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\bin\Debug\Newtonsoft.Json.xml
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\obj\Debug\YaDiskSdk.csproj.AssemblyReference.cache
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\obj\Debug\YaDiskSdk.csproj.CoreCompileInputs.cache
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\obj\Debug\YaDiskSdk.csproj.CopyComplete
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\obj\Debug\YaDiskSdk.dll
+D:\MyProjects\InProcces\VkWallParser\YaDiskSdk\obj\Debug\YaDiskSdk.pdb
