@@ -4,6 +4,7 @@ This is an unofficial project for Yandex.Disk management
 At the moment it has the functions:
 - Downloading files
 - Uploading files by url
+- Uploading file from local storage
 - Deleting file/directory
 - Create directory
 
@@ -36,7 +37,8 @@ bool success = await action.DoAction(
     public interface ISdkOperaions
     {
         Task<bool> DownloadFile(string filePath, string saveAsPath);
-        Task<bool> UploadUrlFile(string filePath, string saveAsPath);
+        Task<bool> UploadUrlFile(string fileUrl, string newFileUrl);
+        Task<bool> UploadFile(string localPath, string diskPath, bool overwrite = true);
         Task<bool> CreateFolder(string name);
         Task<bool> DeleteItem(string name, bool permanently = true);
         string Token { get; set; }
