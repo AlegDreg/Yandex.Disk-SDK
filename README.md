@@ -12,5 +12,10 @@ To get started, you need to get a Yandex.OAuth token
 
 ## Initialize the Sdk class
 ```c#
-            var sdk = new Sdk(token);
+var sdk = new Sdk(token);
+```
+
+## Now you can call any method in Sdk instance
+```#c
+bool success = await sdk.DownloadFile("images/image.png", "C:\newimage.png");
 ```
