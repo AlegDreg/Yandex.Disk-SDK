@@ -10,6 +10,7 @@ At the moment it has the functions:
 ## Begin
 To get started, you need to get a Yandex.OAuth token
 
+## Initialize the Sdk class
 ```c#
-
+            var sdk = new Sdk(token);
 ```
