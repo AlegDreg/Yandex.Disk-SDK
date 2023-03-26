@@ -40,7 +40,7 @@ bool success = await action.DoAction(
         Task<bool> UploadUrlFile(string fileUrl, string newFileUrl);
         Task<bool> UploadFile(string localPath, string diskPath, bool overwrite = true);
         Task<bool> CreateFolder(string name);
-        Task<bool> DeleteItem(string name, bool permanently = true);
+        Task<bool> DeleteItem(string name, bool instantly = true);
         string Token { get; set; }
     }
 ```
