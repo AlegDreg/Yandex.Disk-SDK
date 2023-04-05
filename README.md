@@ -8,7 +8,7 @@ At the moment it has the functions:
 - Delete file/directory
 - Create directory
 
-## Begin
+## Start
 To get started, you need to get a Yandex.OAuth token
 
 ## Initialize the Sdk class
